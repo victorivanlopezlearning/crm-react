@@ -9,14 +9,14 @@ const Layout = () => {
         <nav className='mt-10'>
           <NavLink 
             to="/" end
-            className={({ isActive }) => isActive ? "text-blue-300 text-xl block mt-2 hover:text-blue-300 transition-colors " : "text-white text-xl block mt-2 hover:text-blue-300 transition-colors " }
+            className={ ({ isActive }) => isActive ? "text-blue-300 text-xl block mt-2 hover:text-blue-300 transition-colors " : "text-white text-xl block mt-2 hover:text-blue-300 transition-colors" }
           >
             Clientes
           </NavLink>
 
           <NavLink 
             to="/cliente/nuevo"
-            className={({ isActive }) => isActive ? "text-blue-300 text-xl block mt-2 hover:text-blue-300 transition-colors " : "text-white text-xl block mt-2 hover:text-blue-300 transition-colors " }
+            className={ ({ isActive }) => isActive ? "text-blue-300 text-xl block mt-2 hover:text-blue-300 transition-colors " : "text-white text-xl block mt-2 hover:text-blue-300 transition-colors" }
           >
             Nuevo Cliente
           </NavLink>
