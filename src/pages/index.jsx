@@ -53,8 +53,8 @@ const Index = () => {
       <p className="mt-3">Administra tus Clientes</p>
 
       {(clients.length) ? (
-        <div className="overflow-x-auto">
-          <table className="w-full bg-white shadow mt-5 table-auto overflow-hidden rounded-xl">
+        <div className="overflow-x-auto my-6">
+          <table className="w-full bg-white shadow table-auto overflow-hidden rounded-xl">
             <thead className="bg-blue-800 text-white">
               <tr>
                 <th className="py-2 uppercase">Cliente</th>

@@ -3,27 +3,27 @@ import { Outlet, NavLink } from 'react-router-dom';
 const Layout = () => {
   return (
     <div className='md:flex md:min-h-screen'>
-      <header className='md:w-1/4 bg-blue-900 px-10 py-10'>
+      <header className='bg-blue-900 px-8 py-10'>
         <h2 className='text-4xl font-black text-center text-white uppercase'>CRM - VILGWeb</h2>
 
         <nav className='mt-10'>
           <NavLink 
             to="/" end
-            className={ ({ isActive }) => isActive ? "text-blue-300 text-xl block mt-2 hover:text-blue-300 transition-colors " : "text-white text-xl block mt-2 hover:text-blue-300 transition-colors" }
+            className={ ({ isActive }) => isActive ? "text-blue-200 bg-blue-950 text-xl block mt-2 hover:text-blue-200 transition-colors p-2" : "text-white text-xl block mt-2 hover:text-blue-200 transition-colors p-2" }
           >
             Clientes
           </NavLink>
 
           <NavLink 
             to="/cliente/nuevo"
-            className={ ({ isActive }) => isActive ? "text-blue-300 text-xl block mt-2 hover:text-blue-300 transition-colors " : "text-white text-xl block mt-2 hover:text-blue-300 transition-colors" }
+            className={ ({ isActive }) => isActive ? "text-blue-200 bg-blue-950 text-xl block mt-2 hover:text-blue-200 transition-colors p-2" : "text-white text-xl block mt-2 hover:text-blue-200 transition-colors p-2" }
           >
             Nuevo Cliente
           </NavLink>
         </nav>
       </header>
 
-      <main className='md:w-3/4 p-5 md:p-10 md:h-screen overflow-scroll'>
+      <main className='md:grow p-5 md:p-10 md:h-screen'>
         <Outlet />
       </main>
     </div>

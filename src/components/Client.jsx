@@ -15,7 +15,7 @@ const Client = ({ client }) => {
         <p className="text-gray-600"><span className="text-gray-800 uppercase font-bold">Teléfono: </span>{phone}</p>
       </td>
 
-      <td className="p-7 flex gap-4">
+      <td className="p-7 flex justify-center gap-4">
         <button
           type="button"
           className="text-blue-600 hover:text-blue-700 uppercase font-bold text-sm"
