@@ -41,7 +41,7 @@ const NewClient = () => {
 
       <div className="flex justify-end my-4">
         <button
-          className="bg-blue-800 hover:bg-blue-900 transition-colors text-white px-2 py-2 font-bold uppercase"
+          className="bg-blue-800 hover:bg-blue-900 transition-colors text-white p-2 font-bold uppercase rounded"
           onClick={() => navigate('/')}
         >
           Volver
@@ -60,7 +60,7 @@ const NewClient = () => {
           <FormInputs />
           <input 
             type="submit"
-            className="mt-5 w-full bg-blue-800 hover:bg-blue-900 transition-colors p-3 uppercase font-bold text-white text-lg cursor-pointer"
+            className="mt-5 w-full bg-blue-800 hover:bg-blue-900 transition-colors p-3 uppercase font-bold text-white text-lg cursor-pointer rounded"
             value="Registrar cliente" 
           />
         </Form>
