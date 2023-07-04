@@ -1,45 +1,9 @@
 import { useLoaderData, useNavigate } from "react-router-dom";
 import Client from "../components/Client";
+import { getClients } from "../data/clients";
 
 export const loader = () => { // Se ejecuta cuando el componente este listo
-  const clients = [
-    {
-        id: 1,
-        name: 'Víctor Iván',
-        phone: 3143154786,
-        email: "vlopez@vilgweb.com",
-        company: 'VILGWeb'
-    },
-    {
-        id: 2,
-        name: 'Juan Escutia',
-        phone: 3142154728,
-        email: "jescutia@vilgweb.com",
-        company: 'VILGWeb'
-    },
-    {
-        id: 3,
-        name: 'Roberto Martinez',
-        phone: 3142154762,
-        email: "rmartinez@vilgweb.com",
-        company: 'VILGWeb'
-    },
-    {
-        id: 4,
-        name: 'Miguel Sandoval',
-        phone: 3142145764,
-        email: "msandoval@vilgweb.com",
-        company: 'VILGWeb'
-    },
-    {
-        id: 5,
-        name: 'Pedro González',
-        phone: 3142154291,
-        email: "pgonzalez@vilgweb.com",
-        company: 'VILGWeb'
-    },
-  ];
-  
+  const clients = getClients();
   return clients;
 }
 
