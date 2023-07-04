@@ -10,5 +10,5 @@
 - [React Router Dom](https://reactrouter.com/en/main)
 - CSS Styles - [Tailwind](https://tailwindcss.com/)
 - Mobile-first workflow
-- JSON Server - [CryptoCompare](https://www.npmjs.com/package/json-server)
+- [JSON Server](https://github.com/typicode/json-server)
 - Build Tool - [Vite](https://vitejs.dev)
