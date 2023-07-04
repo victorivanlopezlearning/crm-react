@@ -23,7 +23,7 @@ const Layout = () => {
         </nav>
       </header>
 
-      <main className='md:grow p-5 md:p-10 md:h-screen'>
+      <main className='md:grow p-5 md:p-10 md:h-screen overflow-y-scroll'>
         <Outlet />
       </main>
     </div>
