@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import Client from "../components/Client";
 
 export const loader = () => { // Se ejecuta cuando el componente este listo
@@ -46,11 +46,21 @@ export const loader = () => { // Se ejecuta cuando el componente este listo
 
 const Index = () => {
   const clients = useLoaderData();
+  const navigate = useNavigate();
   
   return (
     <>
       <h2 className="font-black text-4xl text-blue-900">Clientes</h2>
       <p className="mt-3">Administra tus Clientes</p>
+
+      <div className="flex justify-end my-4">
+        <button
+          className="bg-blue-800 hover:bg-blue-900 transition-colors text-white px-2 py-2 font-bold uppercase"
+          onClick={() => navigate('/cliente/nuevo')}
+        >
+          Agregar Nuevo Cliente
+        </button>
+      </div>
 
       {(clients.length) ? (
         <div className="overflow-x-auto my-6">
