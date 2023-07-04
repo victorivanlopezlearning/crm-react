@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './components/Layout';
-import NewClient, { action, action as actionNewClient } from './pages/new-client';
+import NewClient, { action as actionNewClient } from './pages/new-client';
 import Index, { loader as clientsLoader} from './pages';
 
 
