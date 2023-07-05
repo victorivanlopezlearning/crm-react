@@ -1,7 +1,8 @@
-import { useNavigate, Form, useActionData } from "react-router-dom";
+import { useNavigate, Form, useActionData, redirect } from "react-router-dom";
 import FormInputs from "../components/FormInputs";
 import ErrorMessage from "../components/ErrorMessage";
 import { validateEmail } from '../helpers';
+import { createClient } from '../data/clients'
 
 export const action = async ({ request }) => {
   const formData = await request.formData();
@@ -23,15 +24,15 @@ export const action = async ({ request }) => {
 
   if(Object.keys(errors).length) return errors;
 
-  return null;
+  await createClient(data);
+
+  return redirect('/');
 }
 
 const NewClient = () => {
 
   const navigate = useNavigate();
-
   const errors = useActionData();
-  console.log(errors)
 
 
   return (
