@@ -15,7 +15,7 @@ const Layout = () => {
           </NavLink>
 
           <NavLink 
-            to="/client/new"
+            to="/clients/new"
             className={ ({ isActive }) => isActive ? "text-blue-200 bg-blue-950 text-xl block mt-2 hover:text-blue-200 transition-colors p-2" : "text-white text-xl block mt-2 hover:text-blue-200 transition-colors p-2" }
           >
             Nuevo Cliente

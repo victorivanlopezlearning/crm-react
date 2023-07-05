@@ -44,3 +44,20 @@ export const createClient  = async ( data ) => {
     console.log(error);
   }
 }
+
+export const updateClient  = async ( id, data) => {
+  const options = {
+    method: 'PUT',
+    body: JSON.stringify(data),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  }
+  
+  try {
+    const response = await fetch(`${url}/${id}`, options);
+    await response.json();
+  } catch (error) {
+    console.log(error);
+  }
+}

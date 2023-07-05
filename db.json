@@ -1,18 +1,19 @@
 {
   "clients": [
     {
-      "id": 1,
-      "name": "Víctor Iván",
-      "phone": 3143154786,
+      "name": "Víctor Iván López",
+      "company": "VILGWeb",
       "email": "vlopez@vilgweb.com",
-      "company": "VILGWeb"
+      "phone": "3143154786",
+      "notes": "Desarrollador Web.",
+      "id": 1
     },
     {
       "name": "Juan Escutia",
       "company": "VILGWeb",
       "email": "jescutia@vilgweb.com",
       "phone": "3142154872",
-      "notes": "Área de contabilidad.",
+      "notes": "Contador.",
       "id": 2
     }
   ]
