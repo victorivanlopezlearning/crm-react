@@ -6,6 +6,7 @@ import Layout from './components/Layout';
 import NewClient, { action as actionNewClient } from './pages/NewClient';
 import Home, { loader as clientsLoader} from './pages/Home';
 import ErrorBoundary from './pages/ErrorBoundary';
+import EditClient, { loader as EditClientLoader } from './pages/EditClient';
 
 
 const router = createBrowserRouter([
@@ -20,9 +21,15 @@ const router = createBrowserRouter([
         errorElement: <ErrorBoundary />
       },
       {
-        path: '/client/new',
+        path: '/clients/new',
         element: <NewClient />,
         action: actionNewClient,
+        errorElement: <ErrorBoundary />
+      },
+      {
+        path: '/clients/:clientId/edit',
+        element: <EditClient />,
+        loader: EditClientLoader,
         errorElement: <ErrorBoundary />
       }
     ]
