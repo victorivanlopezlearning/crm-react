@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         errorElement: <ErrorBoundary />
       },
       {
-        path: '/cliente/nuevo',
+        path: '/client/new',
         element: <NewClient />,
         action: actionNewClient
       }
