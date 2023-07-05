@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './components/Layout';
-import NewClient, { action as actionNewClient } from './pages/new-client';
-import Index, { loader as clientsLoader} from './pages';
+import NewClient, { action as actionNewClient } from './pages/NewClient';
+import Home, { loader as clientsLoader} from './pages/Home';
 import ErrorBoundary from './pages/ErrorBoundary';
 
 
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Index />,
+        element: <Home />,
         loader: clientsLoader,
         errorElement: <ErrorBoundary />
       },

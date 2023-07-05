@@ -8,7 +8,7 @@ export const loader = () => { // Se ejecuta cuando el componente este listo
 }
 
 
-const Index = () => {
+const Home = () => {
   const clients = useLoaderData();
   const navigate = useNavigate();
   
@@ -55,4 +55,4 @@ const Index = () => {
   )
 }
 
-export default Index;
+export default Home;
