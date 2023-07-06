@@ -1,30 +1,30 @@
 # CRM | React - React Router DOM - Tailwind - JSON Server - Vite
 
 ## Description
-- CRUD development.
+- CRUD.
 - Endpoint creation with JSON Server.
 - React development for the interface.
 - Routing with React Router DOM V6.4.
 - Using Tailwind CSS for interface styles.
 
 ## Preview
-| Home        |
+| Home |
 | :-------------: |
-| <img src='./design/home.jpeg' alt='Page home'>    |
+| <img src='./design/home.jpeg' alt='Page home'> |
 
-| New Client        |
+| New Client |
 | :-------------: |
-| <img src='./design/new-client.jpeg' alt='Page new client'>    |
+| <img src='./design/new-client.jpeg' alt='Page new client'> |
 
-| Edit Client        |
+| Edit Client |
 | :-------------: |
-| <img src='./design/edit-client.jpeg' alt='Page edit client'>    |
+| <img src='./design/edit-client.jpeg' alt='Page edit client'> |
 
 ## Installation
 
 To install and run the project locally, follow these steps:
 
-1. To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer.
+1. To clone and run this application, you'll need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/es) (which comes with npm) installed on your computer.
 2. Clone the repository: `git clone https://github.com/victorivanlopezlearning/crm-react.git`
 3. Navigate to the project directory: `cd crm-react`
 4. Install the dependencies: `npm install`
