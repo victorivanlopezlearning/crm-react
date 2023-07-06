@@ -38,8 +38,8 @@ To install and run the project locally, follow these steps:
 ## Built with
 
 - JavaScript Library - [React V18](https://es.react.dev/)
-- [React Router V6.4](https://reactrouter.com/en/main)
+- [React Router V6.14](https://reactrouter.com/en/main)
 - CSS Styles - [Tailwind V3](https://tailwindcss.com/)
 - Mobile-first workflow
-- [JSON Server](https://github.com/typicode/json-server)
+- [JSON Server V0.17](https://github.com/typicode/json-server)
 - Build Tool - [Vite V4](https://vitejs.dev)
