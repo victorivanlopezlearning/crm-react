@@ -1,6 +1,6 @@
 # CRM | React - React Router DOM - Tailwind - JSON Server - Vite
 
-# Description
+## Description
 * CRUD development.
 * Endpoint creation with JSON Server.
 * React development for the project interface.
