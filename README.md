@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-<!-- ![](./screenshot.jpeg) -->
+![](./screenshot.jpeg)
 
 ## Built with
 
