@@ -67,6 +67,10 @@ export const updateClient  = async ( id, data ) => {
   }
 }
 
+/**
+ * Delete client
+ * @param {String} id 
+ */
 export const deleteClient  = async ( id ) => {
   const options = {
     method: 'DELETE'
