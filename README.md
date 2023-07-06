@@ -3,8 +3,8 @@
 ## Description
 - CRUD.
 - Endpoint creation with JSON Server.
-- React development for the interface.
-- Routing with React Router DOM V6.4.
+- Development with React.
+- Routing with React Router DOM.
 - Using Tailwind CSS for interface styles.
 
 ## Preview
@@ -37,9 +37,9 @@ To install and run the project locally, follow these steps:
 
 ## Built with
 
-- JavaScript Library - [React](https://es.react.dev/)
-- [React Router](https://reactrouter.com/en/main)
-- CSS Styles - [Tailwind](https://tailwindcss.com/)
+- JavaScript Library - [React V18](https://es.react.dev/)
+- [React Router V6.4](https://reactrouter.com/en/main)
+- CSS Styles - [Tailwind V3](https://tailwindcss.com/)
 - Mobile-first workflow
 - [JSON Server](https://github.com/typicode/json-server)
-- Build Tool - [Vite](https://vitejs.dev)
+- Build Tool - [Vite V4](https://vitejs.dev)
