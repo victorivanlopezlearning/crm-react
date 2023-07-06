@@ -1,6 +1,10 @@
 # CRM | React - React Router DOM - Tailwind - JSON Server - Vite
 
 # Description
+* CRUD development.
+* Endpoint creation with JSON Server.
+* React development for the project interface.
+* Routing with React Router DOM V6.4.
 
 ## Preview
 | Home        |
@@ -32,7 +36,7 @@ To install and run the project locally, follow these steps:
 ## Built with
 
 - JavaScript Library - [React](https://es.react.dev/)
-- [React Router Dom](https://reactrouter.com/en/main)
+- [React Router](https://reactrouter.com/en/main)
 - CSS Styles - [Tailwind](https://tailwindcss.com/)
 - Mobile-first workflow
 - [JSON Server](https://github.com/typicode/json-server)
