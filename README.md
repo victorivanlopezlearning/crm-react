@@ -1,8 +1,19 @@
 # CRM | React - React Router DOM - Tailwind - JSON Server - Vite
 
-## Screenshot
+# Description
 
-![](./screenshot.jpeg)
+## Preview
+| Home        |
+| :-------------: |
+| <img src='./design/home.jpeg' alt='Page home'>    |
+
+| New Client        |
+| :-------------: |
+| <img src='./design/new-client.jpeg' alt='Page new client'>    |
+
+| Edit Client        |
+| :-------------: |
+| <img src='./design/edit-client.jpeg' alt='Page edit client'>    |
 
 ## Installation
 
@@ -20,7 +31,7 @@ To install and run the project locally, follow these steps:
 
 ## Built with
 
-- JavaScript - [React](https://es.react.dev/)
+- JavaScript Library - [React](https://es.react.dev/)
 - [React Router Dom](https://reactrouter.com/en/main)
 - CSS Styles - [Tailwind](https://tailwindcss.com/)
 - Mobile-first workflow

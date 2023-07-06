@@ -7,6 +7,22 @@
       "phone": "3143154786",
       "notes": "Desarrollador Web.",
       "id": 1
+    },
+    {
+      "name": "Juan Escutia",
+      "company": "VILGWeb",
+      "email": "jescutia@vilgweb.com",
+      "phone": "3142154712",
+      "notes": "Contador.",
+      "id": 2
+    },
+    {
+      "name": "Antonio Banderas",
+      "company": "VILGWeb",
+      "email": "abanderas@vilgweb.com",
+      "phone": "3142152034",
+      "notes": "Abogado.",
+      "id": 3
     }
   ]
 }
