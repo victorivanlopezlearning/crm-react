@@ -3,7 +3,7 @@ const url = `${import.meta.env.VITE_BASE_URL}/clients`;
 
 
 /**
- * 
+ * Get all clients
  * @returns {Promise}
  */
 export const getClients = async () => {
@@ -13,7 +13,7 @@ export const getClients = async () => {
 }
 
 /**
- * 
+ * Get client by id
  * @param {String} id ID client 
  * @returns {Promise}
  */
@@ -45,13 +45,31 @@ export const createClient  = async ( data ) => {
   }
 }
 
-export const updateClient  = async ( id, data) => {
+/**
+ * Update client
+ * @param {String} id 
+ * @param {Object} data 
+ */
+export const updateClient  = async ( id, data ) => {
   const options = {
     method: 'PUT',
     body: JSON.stringify(data),
     headers: {
       'Content-Type': 'application/json'
     }
+  }
+  
+  try {
+    const response = await fetch(`${url}/${id}`, options);
+    await response.json();
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+export const deleteClient  = async ( id ) => {
+  const options = {
+    method: 'DELETE'
   }
   
   try {
