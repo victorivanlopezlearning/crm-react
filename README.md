@@ -8,17 +8,18 @@
 - Using Tailwind CSS for interface styles.
 
 ## Preview
-| Home |
+| **Home** |
 | :-------------: |
-| <img src='./design/home.jpeg' alt='Page home'> |
+| ![Page home](./design/home.jpeg) |
 
-| New Client |
-| :-------------: |
-| <img src='./design/new-client.jpeg' alt='Page new client'> |
 
-| Edit Client |
+| **New Client** |
 | :-------------: |
-| <img src='./design/edit-client.jpeg' alt='Page edit client'> |
+| ![Page new client](./design/new-client.jpeg) |
+
+| **Edit Client** |
+| :-------------: |
+| ![Page edit client](./design/edit-client.jpeg) |
 
 ## Installation
 
